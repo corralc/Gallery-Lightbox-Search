@@ -49,10 +49,7 @@ a{
 .lb-data .lb-caption {
   font-size: 18px;
 }
-.lb-nav a.lb-prev{
-  width: 40%;
-}
-.lb-nav a.lb-next{
+.lb-nav a.lb-prev, .lb-nav a.lb-next{
   width: 40%;
 }
 /* Media Queries */
