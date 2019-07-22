@@ -48,15 +48,34 @@ a{
 
 .lb-data .lb-caption {
   font-size: 18px;
+  line-height: 1.5em;
 }
 .lb-nav a.lb-prev, .lb-nav a.lb-next{
-  width: 40%;
+width: 40%;
+
 }
 /* Media Queries */
 
 @media (min-width: 768px) {
   .img-item {
     flex: 1 33%;
+  }
+  .lb-nav a.lb-prev, .lb-nav a.lb-next{
+    width: 18%;
+    height: 50%;
+    opacity: inherit;
+    top: 117px;
+  }
+  .lb-nav a.lb-prev{
+    position:absolute;
+    left: -140px;
+  }
+  .lb-nav a.lb-next{
+    position: absolute;
+    right: -140px;
+  }
+  .lb-nav a.lb-prev:hover, .lb-nav a.lb-next:hover{
+    transform: scale(1.1);
   }
 }
 
