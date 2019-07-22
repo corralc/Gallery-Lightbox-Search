@@ -16,18 +16,20 @@
         //Gets the title from the alt attribute in the image tag and stores it in a variable.
         let title = $("a img").eq(i).attr("alt").toLowerCase();
 
-        // Conditional if user input does not start with any of the captions and does not start with any of the titles
+        // If the user input does not contain any single letter or
+        // words that are in the image caption or the images alt text hide them
+
         if (captions.includes(usrInput) === false && title.includes(usrInput) === false) {
 
           //Hides the images
           images.eq(i).hide();
           $(".img-item").eq(i).hide();
 
-          //sets the data-lightbox attribute to hidden so only what is shown can be cycled through
+          //Sets the data-lightbox attribute to hidden so only the images that show can be cycled through
           images.eq(i).attr("data-lightbox", "hidden");
         }
 
-        //Conditional statement if the captions or title start with the user input.
+        // Show images that do not meet the criteria of the first if statement
         else {
 
           //Show images
