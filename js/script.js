@@ -17,7 +17,7 @@
         let title = $("a img").eq(i).attr("alt").toLowerCase();
 
         // Conditional if user input does not start with any of the captions and does not start with any of the titles
-        if (captions.startsWith(usrInput) === false && title.startsWith(usrInput) === false) {
+        if (captions.includes(usrInput) === false && title.includes(usrInput) === false) {
 
           //Hides the images
           images.eq(i).hide();
