@@ -1,7 +1,7 @@
 # Gallery-Lightbox-Search
 This is a responsive gallery search filter that can filter the gallery images depending on what the user types in the search bar. When a 
 user clicks on an image, the image becomes larger and the caption is shown. To see it in action you can copy or 
-click this link: https://corralc.github.io/Gallery-Lightbox-Search/ 
+click this link: https://corralc.github.io/gallery-lightbox-search/.
 
 ## How it works
 When a user types in part or all of the caption/alt text of an image, that image will stay visible while other images that don't meet the 
