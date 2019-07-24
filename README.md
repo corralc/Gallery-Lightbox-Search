@@ -4,7 +4,7 @@ user clicks on an image, the image becomes larger and the caption is shown. To s
 click this link: https://corralc.github.io/Gallery-Lightbox-Search/ 
 
 ## How it works
-When a user types in part or all of the caption/title of an image. That image will stay visible while other images that don't meet the 
+When a user types in part or all of the caption/alt text of an image, that image will stay visible while other images that don't meet the 
 match become invisible.
 
 ### Some Examples
@@ -17,6 +17,8 @@ As you can see each image caption includes the sentence I love
 <img src = "examples\lightbox-search-gallery-ex2.jpg" width="700">
 <img src = "examples\lightbox-search-gallery-ex3.jpg" width="700">
 <img src = "examples\lightbox-search-gallery-ex4.jpg" width="700">
+
+The images are searchable by their alt text as well.
 
 These images can be cycled through and the last image cycles through the first image.
 The user can only cycle through images that are visible. 
