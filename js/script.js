@@ -43,9 +43,11 @@
 
       }
     });
-
     lightbox.option({
+      // Disables image number to show on screen when the user clicks a image.
       'showImageNumberLabel': false,
+      //Disables the ability to scroll up or down when a user clicks an image.
       'disableScrolling' : true,
+      //Allows the last image of the set to scroll to the first image 
       'wrapAround' : true
     })
